@@ -39,3 +39,14 @@ img {
   opacity: 1;
   transform: scale(1);
 }
+
+.alinhamento {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+button {
+  padding: 8px 20px;
+}
