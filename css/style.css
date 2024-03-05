@@ -46,8 +46,6 @@ img {
   justify-content: center;
   margin-top: 10px;
  
-
-
 }
 
 .arrow-nav button {
@@ -56,6 +54,7 @@ img {
   color: white;
   border-radius: 4px;
   background: #fb5 url('../img/arrow.svg') center no-repeat;
+  cursor: pointer;
    }
    .arrow-nav .prev {
     transform: rotate(-180deg);
@@ -95,6 +94,7 @@ margin: 20px 0 ;
 transform: scale(.8);
 opacity: .8;
 transition: .3s;
+cursor: pointer;
 }
 .custom-controls li.active {
 transform: scale(1);
