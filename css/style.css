@@ -40,16 +40,27 @@ img {
   transform: scale(1);
 }
 
-.alinhamento {
+.arrow-nav {
   display: flex;
   gap: 10px;
   justify-content: center;
   margin-top: 10px;
+ 
+
+
 }
 
-button {
-  padding: 8px 20px;
-}
+.arrow-nav button {
+  width: 40px;
+  height: 30px;
+  color: white;
+  border-radius: 4px;
+  background: #fb5 url('../img/arrow.svg') center no-repeat;
+   }
+   .arrow-nav .prev {
+    transform: rotate(-180deg);
+   }
+
 [data-control ="slide"] {
   display: flex;
   justify-content: center;
@@ -69,4 +80,23 @@ button {
 
 [data-control ="slide"] li.active a, [data-control ="slide"] li a:hover {
   background: #e54;
+}
+
+.custom-controls {
+  display: flex;
+  justify-content: center;
+}
+.custom-controls li {
+width: 40px;
+height: 40px;
+border-radius: 50%;
+overflow: hidden;
+margin: 20px 0 ;
+transform: scale(.8);
+opacity: .8;
+transition: .3s;
+}
+.custom-controls li.active {
+transform: scale(1);
+opacity: 1;
 }
